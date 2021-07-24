@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Number Game.</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Guess The Number (1 - 100)</h1>
+
+    <div class="check">
+      <input type="number" name="number" id="number" />
+      <button type="button" id="check-button" onclick="sayiGir()">CHECK</button>
+      <p class="guessed-numbers">Guessed Numbers:</p>
+      <p class="girilen-sayilar"></p>
+      <p id="result"></p>
+      <p id="remain"></p>
+      <img src="./magic_hat.png" alt="magic-hat" class="image"/>
+    </div>
+    
+    
+    <script src="./app.js"></script>
+  </body>
+</html>
